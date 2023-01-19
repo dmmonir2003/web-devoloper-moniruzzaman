@@ -16,11 +16,12 @@ h2 {
 }
 
 section {
-    display: auto;
+    display: 20px;
 }
 
 .width {
     width: 50%;
+    right: 30%;
     padding-left: 5%;
 }
 
@@ -29,8 +30,8 @@ section {
 }
 
 .width p {
-    width: 1%;
-    height: auto;
+    width: 100px;
+    left: 50px;
 }
 
 .width h1 {
@@ -39,4 +40,10 @@ section {
 
 .width h2 {
     width: 10%;
+}
+
+.button {
+    text-decoration: none;
+    background-color: blue;
+    width: 10px 40px;
 }
